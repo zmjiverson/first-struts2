@@ -22,6 +22,9 @@ public class ExtGradeInfoDAOImpl extends IbatisDaoAnnotation implements ExtGrade
 	
 	public void testgit(){
 		System.out.println();
+		
+		System.out.println("我是base版本");
+		System.out.println("我要提交");
 	}
 
 }
