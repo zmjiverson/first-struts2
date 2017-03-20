@@ -19,6 +19,9 @@ public class ExtGradeInfoDAOImpl extends IbatisDaoAnnotation implements ExtGrade
 		return this.searchListPageMyObject("TB_GRADE_INFO.findExtGradeInfo", paramMap, page);
 	}
     
+	public void test(){
+		System.out.println("base fork");
+	}
 	
 	public void testgit(){
 		System.out.println();
