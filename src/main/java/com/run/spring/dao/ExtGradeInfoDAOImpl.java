@@ -19,12 +19,23 @@ public class ExtGradeInfoDAOImpl extends IbatisDaoAnnotation implements ExtGrade
 		return this.searchListPageMyObject("TB_GRADE_INFO.findExtGradeInfo", paramMap, page);
 	}
     
+	public void test(){
+		System.out.println("base fork");
+		
+		System.out.println("我是fork工程");
+		System.out.println("我是fork工程");
+		System.out.println("我是fork工程");
+		System.out.println("我是fork工程");
+	}
+	
+	public void fork(){
+		System.out.println("fork test");
+	}
 	
 	public void testgit(){
 		System.out.println();
 		
-		System.out.println("我是base版本");
-		System.out.println("我要提交");
+		System.out.println("我是fork工程");
 	}
 
 }
