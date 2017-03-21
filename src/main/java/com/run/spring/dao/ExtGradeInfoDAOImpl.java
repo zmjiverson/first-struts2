@@ -21,6 +21,11 @@ public class ExtGradeInfoDAOImpl extends IbatisDaoAnnotation implements ExtGrade
     
 	public void test(){
 		System.out.println("base fork");
+		
+		System.out.println("我是fork工程");
+		System.out.println("我是fork工程");
+		System.out.println("我是fork工程");
+		System.out.println("我是fork工程");
 	}
 	
 	public void fork(){
